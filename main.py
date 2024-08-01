@@ -20,6 +20,7 @@ rpc.update(
 )
 
 try:
+    print("Подключение...")
     while True:
         time.sleep(15)
 except KeyboardInterrupt:
